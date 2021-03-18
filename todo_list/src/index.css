@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto',
+  sans-serif;
+  background: rgb(5, 10, 73);
+
+}
+
+li {
+  list-style-type: none;
+}
+
+.App{
+border: 3px solid black;
+width: 60vw;
+margin: 3rem auto;
+background: #b6e7e9;
+color: rgb(10, 10, 10);
+padding: 2rem;
+border-radius: 1rem;
+box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.39);
+}
+.App h1{
+  margin-bottom: 2rem;
+}
+.input{
+  padding: .5rem;
+  margin-bottom: 1rem;
+}
+ul{
+  margin-top: 2rem;
+}
+.container{
+  border: 2px solid rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+}
+.del{
+  height: 35px;
+  width: 30px;
+  margin-right: 1.5rem;
+  margin-left: 1.3rem;
+  cursor: pointer;
+  filter: grayscale(1);
+}
+.del:hover{
+  filter: grayscale(0);
+
+}
+.modal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+.modal input{
+  padding: .5rem;
+  font-size: 1rem;
+margin-bottom: .5rem;
+margin-right: .5rem;
+}
+.modal h1{
+  margin-bottom: 1rem;
+}
+
+@media (max-width:800px){
+  .App{
+    width: 90vw;
+  }
+}
